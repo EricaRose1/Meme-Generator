@@ -1,0 +1,176 @@
+html {
+  background-color: white;
+}
+
+* {
+  margin: 3px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* headding  */
+h1,
+h2 {
+  text-shadow: 10px;
+  color: navy;
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  padding: 40px 50px 5px 50px;
+  margin: 30px 50px 5px 50px;
+}
+
+/* create your own meme pleaes fillout form section*/
+p {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0px 0px 30px 0px;
+  text-shadow: 10px;
+  text-align: center;
+  color: rgba(16, 16, 154, 0.906);
+  letter-spacing: -1px;
+}
+
+/* text on top of input boxes */
+.question {
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  margin: 10px 15px;
+  color: navy;
+  letter-spacing: -0.8px;
+}
+
+label.question {
+  font-size: 16px;
+  transition-property: font-size;
+  transition-duration: 5s;
+}
+
+label.question:hover {
+  font-size: 36px;
+}
+
+/* input glowing boxes */
+.input {
+  padding: 10px;
+  border: 0;
+  box-shadow: 0 0 15px 4px rgba(100, 100, 238, 0.329);
+  margin: 10px 15px 10px 2px;
+  display: block;
+  width: 100%;
+  background-color: rgba(80, 80, 228, 0.032);
+  font-family: "Roboto", sans-serif;
+}
+
+input.fontColor {
+  width: 250px;
+  box-shadow: 0 0 15px 4px rgba(100, 100, 238, 0.329);
+  margin: 30px 50px 10px 10px;
+  padding: 2.5px;
+}
+
+/* create meme submit button */
+.submitButton {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: 0.75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.submitButton:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.submitButton:focus {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 4px -6px;
+}
+
+/* under hr the meme gallery */
+.gallery {
+  list-style: none;
+  width: 100%;
+}
+
+/* new meme */
+.memeImage {
+  display: inline-block;
+  margin: 1%;
+  width: 300px;
+  height: auto;
+  text-align: center;
+  position: relative;
+  opacity: 1;
+}
+
+/* size of meme */
+img {
+  width: 300px;
+  font-weight: 200px;
+}
+
+/* Top and Bottom text on Meme */
+.text {
+  font-size: 30px;
+  position: relative;
+}
+
+/* seperate toptext */
+.top {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 30%;
+  z-index: 9;
+  max-height: 50%;
+  font-size: 2rem;
+}
+
+/* bottom bottomtext */
+.bottom {
+  position: absolute;
+  bottom: 20%;
+  z-index: 9;
+  max-height: 50%;
+  font-size: 2rem;
+  text-align: center;
+  left: 5%;
+}
+
+/* delete button */
+.button {
+  width: 100%;
+  padding: 5px 20px 5px 10px;
+  background-color: rgba(100, 100, 238, 0.238);
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
+  border: 2px;
+}
+
+/* attr. with submit button @ https://getcssscan.com/css-buttons-examples  */
